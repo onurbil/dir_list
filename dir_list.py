@@ -66,7 +66,8 @@ def main(terms):
     target_folder = terms['f']
         
     path = os.path.abspath(path)  
-    txt_file = open(os.path.join(os.path.dirname(path), "dir_list.txt"), "w")
+    txt_path = os.path.join(os.path.dirname(path), "dir_list.txt")
+    txt_file = open(txt_path, "w")
     txt_file.write('"""\nFolder structure:\n\n')
     txt_file.write('{}\n'.format(os.path.join(
                                  os.path.basename(os.path.normpath(path)),'')))
@@ -76,7 +77,9 @@ def main(terms):
               depth=0)
 
     txt_file.write('"""\n')
-    txt_file.close()
+    txt_file.close()    
+    print("INFO: Successfully saved folder structure file in {}"
+          .format(txt_path))
 
 
 """
