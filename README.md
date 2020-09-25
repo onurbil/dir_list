@@ -28,7 +28,7 @@ python dir_list.py <PATH_TO_FOLDER>
 
 
 ### Options
--h, --help:  show this help message and exit
--d depth:   maximal print depth
--l length:   maximal print length of a folder
--f folder:   folder with no printing length boundry
+-h, --help:  show this help message and exit  
+-d depth:   maximal print depth  
+-l length:   maximal print length of a folder  
+-f folder:   folder with no printing length boundry  
