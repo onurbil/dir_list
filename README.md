@@ -1,5 +1,5 @@
 ## dir_list
-Prints the folder structure to a text file. Text file is created in the same directory with the given folder.
+Prints the folder structure to a text file. Text file is created in the same directory of the given folder.
 
 For example:
 
@@ -29,6 +29,6 @@ python dir_list.py <PATH_TO_FOLDER>
 
 ### Options
 -h, --help:  show this help message and exit
--d depth:   maximal print depth boundry
--l length:   maximal print length boundry of a folder
--f folder:   folder without printing boundries applied
+-d depth:   maximal print depth
+-l length:   maximal print length of a folder
+-f folder:   folder with no printing length boundry

@@ -91,11 +91,11 @@ python dir_list.py test -d 3 -l 10 -f test2
 parser = argparse.ArgumentParser()
 parser.add_argument('path', help='path of the folder to print')
 parser.add_argument('-d', type=int, default=3, metavar='depth', 
-                          help='maximal print depth boundry')
+                          help='maximal print depth')
 parser.add_argument('-l', type=int, default=10, metavar='length', 
-                          help='maximal print length boundry of a folder')
+                          help='maximal print length of a folder')
 parser.add_argument('-f', metavar='folder', 
-                          help='folder without printing boundries applied')                          
+                          help='folder with no printing length boundry')                          
 terms = vars(parser.parse_args())
 
 main(terms)
