@@ -3,19 +3,19 @@ Prints the folder structure to a text file. Text file is created in the same dir
 
 For example:
 
-"""
-Folder structure:
-
-test_dir/
-└─── test_dir2/
-│    └─── test_dir3/
+"""  
+Folder structure:  
+  
+test_dir/  
+└─── test_dir2/  
+│    └─── test_dir3/  
 │    │    
-│    └─── test_file4.txt
-│    └─── test_file3.txt
+│    └─── test_file4.txt  
+│    └─── test_file3.txt  
 │    
-└─── test_file.txt
-└─── test_file2.txt
-"""
+└─── test_file.txt  
+└─── test_file2.txt  
+"""  
 
 
 ### Running dir_list
